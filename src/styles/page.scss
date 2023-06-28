@@ -1,0 +1,7 @@
+@import './variables';
+
+.page {
+  padding: calc($nav-height + 20px) $pd-standart;
+  margin: 0 auto;
+  height: 100%;
+}

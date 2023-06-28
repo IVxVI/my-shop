@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.details {
+  padding-top: $nav-height;
+  position: fixed;
+  overflow: hidden;
+  border: 2px solid $f-main;
+  background-color: $c-light;
+  z-index: 999;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 80%;
+  width: 90%;
+}

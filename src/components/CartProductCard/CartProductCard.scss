@@ -1,0 +1,57 @@
+@import '../../styles/variables';
+
+td {
+  font-size: 20px;
+}
+
+.img__wrapper {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+
+  & > img {
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.td {
+  &__btns {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    flex-direction: column;
+    padding:1em;
+    border: 2px solid $f-main;
+  }
+
+  &__btn {
+    transition: transform 0.2s ease-in;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &--qty {
+      cursor: pointer;
+      border: none;
+      color: $f-main;
+      font-size: 20px;
+      background-color: $c-light;
+    }
+  }
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  background-color: $c-light;
+  font-family: inherit;
+  font-size: 20px;
+  color: $f-main;
+  padding: 0;
+  text-decoration: none; 
+}

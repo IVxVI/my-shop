@@ -1,0 +1,552 @@
+[
+  {
+    "id": "1",
+    "title": "Eau de Parfum - Classic Floral",
+    "imgUrl": "https://cdn.notinoimg.com/detail_zoom/coach/3386460095341_02-o/coach-floral___4.jpg",
+    "description": "A timeless classic floral fragrance that embodies elegance and sophistication. The exquisite blend of jasmine, rose, and lily of the valley creates a delicate and feminine scent.",
+    "category": "Parfums",
+    "price": "59.99",
+    "availability": true,
+    "qty": 0
+  },
+  {
+    "id": "2",
+    "title": "Unisex Perfume Oil - Citrus Burst",
+    "imgUrl": "https://cdn.notinoimg.com/detail_zoom/guerlain/3346470143944_02/guerlain-aqua-allegoria-mandarine-basilic_.jpg",
+    "description": "Experience the invigorating burst of citrus with this unisex perfume oil. The zesty notes of orange, lemon, and grapefruit create a refreshing and energizing fragrance that suits everyone.",
+    "category": "Parfums",
+    "price": "29.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "3",
+    "title": "Eau de Parfum - Oriental Spice",
+    "imgUrl": "https://cdn.notinoimg.com/detail_zoom/guerlain/3346470142220_02/guerlain-les-absolus-dorient-epices-exquises_.jpg",
+    "description": "Indulge in the rich and exotic scent of oriental spices with this captivating fragrance. The blend of warm spices, such as cinnamon, cardamom, and clove, creates a luxurious and mysterious aura.",
+    "category": "Parfums",
+    "price": "69.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "4",
+    "title": "Women's Perfume Rollerball - Blossom Blush",
+    "imgUrl": "https://cdn.notinoimg.com/detail_zoom/jimmy-choo/3386460066280_02-o/jimmy-choo-blossom___17.jpg",
+    "description": "Carry your favorite fragrance wherever you go with this convenient perfume rollerball. The delicate floral notes of blossoms and the subtle hint of blush create a feminine and enchanting scent.",
+    "category": "Parfums",
+    "price": "19.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "5",
+    "title": "Unisex Perfume Oil - Amber Essence",
+    "imgUrl": "https://logevy.com.ua/content/images/1/800x1200l80mc0/17616067982100.webp",
+    "description": "Immerse yourself in the warm and sensual embrace of amber essence. This unisex perfume oil combines the rich and earthy notes of amber, vanilla, and sandalwood for a captivating fragrance experience.",
+    "category": "Parfums",
+    "price": "34.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "6",
+    "title": "Eau de Toilette - Fresh Citrus",
+    "imgUrl": "https://content.rozetka.com.ua/goods/images/big/183387344.jpg",
+    "description": "Feel refreshed and revitalized with this invigorating eau de toilette. The vibrant citrus notes of lemon, bergamot, and grapefruit create a zesty and uplifting fragrance.",
+    "category": "Parfums",
+    "price": "49.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "7",
+    "title": "Eau de Parfum - Romantic Rose",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/ralph-lauren/3605972127808_01-o/ralph-lauren-romance-rose_.jpg",
+    "description": "Experience the timeless elegance of a romantic rose bouquet with this exquisite eau de parfum. The delicate blend of roses, jasmine, and peony creates a captivating and enchanting fragrance.",
+    "category": "Parfums",
+    "price": "59.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "8",
+    "title": "Men's Cologne - Spicy Patchouli",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/givenchy/3274872439061_01/givenchy-gentleman-reserve-privee_.jpg",
+    "description": "Make a bold statement with this masculine cologne featuring spicy patchouli notes. The combination of warm spices, patchouli, and a touch of leather creates a powerful and seductive fragrance for men.",
+    "category": "Parfums",
+    "price": "54.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "9",
+    "title": "Eau de Parfum - Sensual Vanilla",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/armani/3614273313148_01-o/armani-si-intense_.jpg",
+    "description": "Indulge in the seductive and comforting scent of sensual vanilla. This eau de parfum combines the rich and sweet notes of vanilla, caramel, and tonka bean for an alluring and irresistible fragrance.",
+    "category": "Parfums",
+    "price": "64.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "10",
+    "title": "Women's Perfume Rollerball - Elegant Lily",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/dior/3348901426961_02/dior-jadore-roller-pearl-roll-on_.jpg",
+    "description": "Experience the grace and elegance of lilies with this women's perfume rollerball. The delicate floral notes of lilies and a hint of green create a sophisticated and timeless fragrance.",
+    "category": "Parfums",
+    "price": "19.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "11",
+    "title": "Luxury Perfume Lotion - Rose Garden",
+    "imgUrl": "https://logevy.com.ua/content/images/43/881x900l95mc0/16450813305560.webp",
+    "description": "Indulge in the luxurious scent of a rose garden with this perfume lotion. The rich and nourishing formula leaves your skin feeling moisturized and subtly fragranced with the romantic aroma of roses.",
+    "category": "Skincare",
+    "price": "39.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "12",
+    "title": "Luxury Perfume Lotion - Exotic Amber",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/victorias-secret/0667538086175_01-o/victorias-secret-amber-romance___12.jpg",
+    "description": "Pamper your skin with the exotic and sensual scent of amber. This luxury perfume lotion combines the hydrating properties of a lotion with the captivating fragrance of amber for a truly indulgent experience.",
+    "category": "Skincare",
+    "price": "44.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "13",
+    "title": "Luxury Perfume Lotion - Lavender Dreams",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/victorias-secret/667554687233_01-o/victorias-secret-untamed-love-spell_.jpg",
+    "description": "Relax and unwind with the soothing scent of lavender dreams. This luxury perfume lotion nourishes your skin while enveloping you in the calming and tranquil aroma of lavender.",
+    "category": "Skincare",
+    "price": "39.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "14",
+    "title": "Luxury Perfume Lotion - Hydrangea Delight",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/victorias-secret/667555168854_01-o/victorias-secret-crystal-fragrance-pure-seduction-crystal_.jpg",
+    "description": "Treat your senses to the delightful fragrance of hydrangeas with this luxury perfume lotion. The hydrating formula and enchanting floral scent leave your skin feeling soft, moisturized, and beautifully scented.",
+    "category": "Skincare",
+    "price": "44.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "15",
+    "title": "Luxury Perfume Lotion - Citrus Splash",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/chopard/7640177362018_01-o/chopard-happy-lemon-dulci_.jpg",
+    "description": "Revitalize your skin with the invigorating scent of a citrus splash. This luxury perfume lotion combines the moisturizing benefits of a lotion with the refreshing and uplifting fragrance of citrus fruits.",
+    "category": "Skincare",
+    "price": "39.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "16",
+    "title": "Men's Aftershave Balm - Cool Mint",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/davidoff/ddfcwmm_dasb10-o/davidoff-cool-water___15.jpg",
+    "description": "Soothe and refresh your skin after shaving with this men's aftershave balm featuring a cool mint scent. The invigorating blend of mint, eucalyptus, and a touch of lavender leaves your skin feeling revitalized and subtly fragranced.",
+    "category": "Face-care",
+    "price": "34.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "17",
+    "title": "Women's Perfume Rollerball - Floral Bouquet",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/dior/3348901395366y_01/dior-miss-dior-blooming-bouquet-roller-pearl-roll-on___3.jpg",
+    "description": "Carry your favorite floral fragrance with you wherever you go with this women's perfume rollerball. The bouquet of fresh flowers and a hint of greenery create a vibrant and captivating scent.",
+    "category": "Parfums",
+    "price": "19.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "18",
+    "title": "Men's Aftershave Balm - Woody Musk",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/versace/8011003809233_01-o/versace-eros___15.jpg",
+    "description": "Soothe and nourish your skin after shaving with this men's aftershave balm featuring a woody musk scent. The combination of warm woods, musk, and a touch of vetiver leaves your skin feeling refreshed and subtly fragranced.",
+    "category": "Face-care",
+    "price": "34.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "19",
+    "title": "Eau de Parfum - Floral Delight",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/armani/3614273673884_02-o/armani-my-way-floral_.jpg",
+    "description": "Experience the joy and beauty of a floral delight with this captivating eau de parfum. The combination of blooming flowers, such as jasmine, rose, and lily of the valley, creates a romantic and enchanting fragrance.",
+    "category": "Parfums",
+    "price": "59.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "20",
+    "title": "Unisex Perfume Oil - Fresh Breeze",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/clean/859968000917_01-o/clean-classic-fresh-laundry___24.jpg",
+    "description": "Immerse yourself in the refreshing and uplifting scent of a fresh breeze with this unisex perfume oil. The crisp notes of bergamot, green tea, and white musk create a light and invigorating fragrance.",
+    "category": "Parfums",
+    "price": "29.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "21",
+    "title": "Eau de Parfum - Exotic Spices",
+    "imgUrl": "https://cdn.notinoimg.com/detail_zoom/guerlain/3346470142220_02/guerlain-les-absolus-dorient-epices-exquises_.jpg",
+    "description": "Embark on a sensory journey with the exotic spices of this captivating eau de parfum. The blend of warm spices, such as cardamom, cinnamon, and cloves, creates a luxurious and seductive fragrance.",
+    "category": "Parfums",
+    "price": "69.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "22",
+    "title": "Women's Perfume Rollerball - Fruity Fusion",
+    "imgUrl": "https://cdn.notinoimg.com/detail_zoom/montale/mntprfu_aedp10_02-o/montale-pretty-fruity___20.jpg",
+    "description": "Carry the irresistible fusion of fruits with you wherever you go with this women's perfume rollerball. The vibrant combination of fruits, such as strawberry, pineapple, and pear, creates a playful and enticing fragrance.",
+    "category": "Parfums",
+    "price": "19.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "23",
+    "title": "Unisex Perfume Oil - Sensual Musk",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/swiss-arabian/6295124031342_01-o/swiss-arabian-secret-musk_.jpg",
+    "description": "Indulge in the sensuality and allure of musk with this unisex perfume oil. The captivating blend of musk, amber, and vanilla creates a seductive and long-lasting fragrance experience.",
+    "category": "Parfums",
+    "price": "34.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "24",
+    "title": "Eau de Toilette - Crisp Citrus",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/burberry/3616301975700_01-o/burberry-her_.jpg",
+    "description": "Feel the freshness of a crisp citrus scent with this invigorating eau de toilette. The zesty notes of lemon, lime, and orange create a vibrant and energizing fragrance.",
+    "category": "Parfums",
+    "price": "49.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "25",
+    "title": "Eau de Parfum - Enchanted Garden",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/dolce-gabbana/3423478400559_01-o/dolce-gabbana-dolce-garden___6.jpg",
+    "description": "Step into an enchanted garden with this captivating eau de parfum. The delicate blend of floral and green notes creates a magical and enchanting fragrance experience.",
+    "category": "Parfums",
+    "price": "59.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "26",
+    "title": "Men's Cologne - Fresh Bergamot",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/armani/3360372058939_01-o/armani-acqua-di-gio-pour-homme___33.jpg",
+    "description": "Make a statement with this refreshing men's cologne featuring fresh bergamot notes. The invigorating blend of bergamot, citrus, and a touch of vetiver creates a clean and sophisticated fragrance.",
+    "category": "Parfums",
+    "price": "54.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "27",
+    "title": "Eau de Parfum - Enigmatic Oud",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/franck-olivier/3516641317317_03/franck-olivier-oud-touch___5.jpg",
+    "description": "Experience the mysterious and alluring scent of enigmatic oud with this captivating eau de parfum. The rich and exotic blend of oud, spices, and floral notes creates a seductive and luxurious fragrance.",
+    "category": "Parfums",
+    "price": "64.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "28",
+    "title": "Women's Perfume Rollerball - Delicate Jasmine",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/jeanne-en-provence/3430750947572_01-o/jeanne-en-provence-jasmin-secret_.jpg",
+    "description": "Carry the elegance and grace of delicate jasmine with you wherever you go with this women's perfume rollerball. The enchanting floral notes of jasmine and a hint of green create a feminine and romantic fragrance.",
+    "category": "Parfums",
+    "price": "19.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "29",
+    "title": "Luxury Perfume Lotion - Floral Elegance",
+    "imgUrl": "https://logevy.com.ua/content/images/43/600x900l95mc0/aromadifuzor-logevy-firenze-500-ml-peonia-in-fiore-log0203-29541065040645.webp",
+    "description": "Indulge in the luxurious scent of floral elegance with this perfume lotion. The rich and nourishing formula leaves your skin feeling moisturized and subtly fragranced with the delicate aroma of flowers.",
+    "category": "Skincare",
+    "price": "39.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "30",
+    "title": "Luxury Perfume Lotion - Exquisite Sandalwood",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/guerlain/3346470116375_01/guerlain-les-absolus-dorient-santal-royal___14.jpg",
+    "description": "Pamper your skin with the exquisite and sensual scent of sandalwood. This luxury perfume lotion combines the hydrating properties of a lotion with the captivating fragrance of sandalwood for a truly indulgent experience.",
+    "category": "Skincare",
+    "price": "44.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "31",
+    "title": "Luxury Perfume Lotion - Fresh Lavender",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/molinard/3305400180046_01-o/molinard-violette___13.jpg",
+    "description": "Relax and unwind with the soothing scent of fresh lavender. This luxury perfume lotion nourishes your skin while enveloping you in the calming and tranquil aroma of lavender.",
+    "category": "Skincare",
+    "price": "39.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "32",
+    "title": "Luxury Perfume Lotion - Blooming Orchids",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/viktor-rolf/3614273622677_01-o/viktor-rolf-flowerbomb-ruby-orchid_.jpg",
+    "description": "Treat your senses to the enchanting fragrance of blooming orchids with this luxury perfume lotion. The hydrating formula and captivating floral scent leave your skin feeling soft, moisturized, and beautifully scented.",
+    "category": "Skincare",
+    "price": "44.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "33",
+    "title": "Luxury Perfume Lotion - Zesty Citrus",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/chopard/7640177362018_01-o/chopard-happy-lemon-dulci_.jpg",
+    "description": "Revitalize your skin with the invigorating scent of zesty citrus. This luxury perfume lotion combines the moisturizing benefits of a lotion with the refreshing and uplifting fragrance of citrus fruits.",
+    "category": "Skincare",
+    "price": "39.99",
+    "availability": true,
+    "qty": 0
+  },
+  {
+    "id": "34",
+    "title": "Men's Aftershave Balm - Refreshing Ocean",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/proraso/8004395001101xx_01-o/proraso-green___15.jpg",
+    "description": "Soothe and refresh your skin after shaving with this men's aftershave balm featuring a refreshing ocean scent. The invigorating blend of sea breeze, aquatic notes, and a touch of cedarwood leaves your skin feeling revitalized and subtly fragranced.",
+    "category": "Face-care",
+    "price": "34.99",
+    "availability": true,
+    "qty": 0
+  },
+  {
+    "id": "35",
+    "title": "Women's Perfume Rollerball - Romantic Rose",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/dior/3348901544047_01-o/dior-miss-dior-rose-nroses-roller-pearl-roll-on_.jpg",
+    "description": "Carry the romance and beauty of roses with you wherever you go with this women's perfume rollerball. The timeless floral notes of roses create a classic and elegant fragrance.",
+    "category": "Parfums",
+    "price": "19.99",
+    "availability": true,
+    "qty": 0
+  }, 
+  {
+    "id": "872",
+    "title": "Shampoo - Nourishing Coconut",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/ogx/022796970053_01-o/ogx-coconut-milk_.jpg",
+    "description": "Cleanse and nourish your hair with this nourishing coconut shampoo. The hydrating formula leaves your hair feeling soft, smooth, and smelling divine.",
+    "category": "Hair-care",
+    "price": "12.99",
+    "availability": true,
+    "qty": 0
+  },
+  {
+    "id": "596",
+    "title": "Conditioner - Repairing Argan Oil",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/ogx/022796976123_01-o/ogx-argan-oil-of-morocco_.jpg",
+    "description": "Repair and strengthen your hair with this repairing argan oil conditioner. The rich and creamy formula restores moisture and promotes healthy, shiny hair.",
+    "category": "Hair-care",
+    "price": "14.99",
+    "availability": true,
+    "qty": 0
+  },
+  {
+    "id": "207",
+    "title": "Hair Mask - Deep Conditioning",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/ogx/3574661685168_01-o/ogx-coconut-miracle-oil_.jpg",
+    "description": "Treat your hair to a deep conditioning experience with this nourishing hair mask. The intensive formula repairs and revitalizes damaged hair, leaving it soft, silky, and manageable.",
+    "category": "Hair-care",
+    "price": "16.99",
+    "availability": true,
+    "qty": 0
+  },
+  {
+    "id": "941",
+    "title": "Hair Serum - Frizz Control",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/john-frieda/5037156202007_11-o/john-frieda-frizz-ease-extra-strenght_.jpg",
+    "description": "Say goodbye to frizz and hello to smooth, sleek hair with this frizz control hair serum. The lightweight formula tames flyaways and adds shine without weighing your hair down.",
+    "category": "Hair-care",
+    "price": "10.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "482",
+    "title": "Hair Gel - Strong Hold",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/got2b/9000100366526_01-o/got2b-glued___14.jpg",
+    "description": "Style your hair with confidence using this strong hold hair gel. The long-lasting formula provides maximum hold and control, keeping your hairstyle in place throughout the day.",
+    "category": "Hair-care",
+    "price": "8.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "71921",
+    "title": "Men's Shaving Cream - Refreshing Menthol",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/proraso/8004395001118xx_01-o/proraso-green___15.jpg",
+    "description": "Experience a refreshing shave with this menthol-infused shaving cream for men. The rich lather provides a smooth glide and helps protect your skin from irritation and razor burn.",
+    "category": "Face-care",
+    "price": "9.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "31531",
+    "title": "Men's Aftershave Balm - Woody Musk",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/montblanc/3386460101066_01-o/montblanc-explorer_.jpg",
+    "description": "Soothe and nourish your skin after shaving with this men's aftershave balm featuring a woody musk scent. The combination of warm woods, musk, and a touch of vetiver leaves your skin feeling refreshed and subtly fragranced.",
+    "category": "Face-care",
+    "price": "34.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "678121",
+    "title": "Men's Beard Oil - Conditioning Blend",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/hawkins-brimble/hwkelgm_kbeo10-o/hawkins-brimble-beard-oil___16.jpg",
+    "description": "Keep your beard soft, manageable, and healthy with this conditioning blend beard oil. The nourishing formula moisturizes the skin and helps prevent dryness and itchiness.",
+    "category": "Face-care",
+    "price": "12.99",
+    "availability": true,
+    "qty": 11
+  },
+  {
+    "id": "9252323",
+    "title": "Men's Cologne - Fresh Citrus",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/dior/3348901126342_01/dior-dior-homme-cologne___20.jpg",
+    "description": "Make a lasting impression with this fresh citrus cologne for men. The invigorating scent combines notes of zesty citrus fruits with aromatic herbs, creating a refreshing and masculine fragrance.",
+    "category": "Parfums",
+    "price": "49.99",
+    "availability": true,
+    "qty": 23
+  },
+  {
+    "id": "542323",
+    "title": "Lip Balm Set - Assorted Flavors",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/dior/3348901550628_01/dior-dior-addict-lip-glow_.jpg",
+    "description": "Keep your lips moisturized and protected with this lip balm set featuring assorted flavors. The nourishing formula helps prevent dryness and chapping, leaving your lips soft and smooth.",
+    "category": "Face-care",
+    "price": "6.99",
+    "availability": true,
+    "qty": 3
+  },
+  {
+    "id": "422321",
+    "title": "Hand Cream - Moisturizing Shea Butter",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/the_body_shop/5028197943363_01-o/the-body-shop-shea_.jpg",
+    "description": "Pamper your hands with this moisturizing hand cream enriched with shea butter. The luxurious formula hydrates and softens your skin, leaving it supple and delicately scented.",
+    "category": "Body-care",
+    "price": "7.99",
+    "availability": true,
+    "qty": 52
+  },
+  {
+    "id": "809",
+    "title": "Body Lotion - Hydrating Aloe Vera",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/holika-holika/8806334355302_01-o/holika-holika-aloe-99_.jpg",
+    "description": "Hydrate and nourish your skin with this hydrating aloe vera body lotion. The lightweight and non-greasy formula absorbs quickly, leaving your skin soft, smooth, and refreshed.",
+    "category": "Body-care",
+    "price": "11.99",
+    "availability": true,
+    "qty": 15
+  },
+  {
+    "id": "648",
+    "title": "Body Wash - Refreshing Mint",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/molton_brown/8080151544_01-o/molton-brown-eucalyptus_.jpg",
+    "description": "Invigorate your senses and cleanse your skin with this refreshing mint body wash. The revitalizing scent and gentle lather leave you feeling refreshed and rejuvenated.",
+    "category": "Body-care",
+    "price": "9.99",
+    "availability": true,
+    "qty": 2
+  },
+  {
+    "id": "367",
+    "title": "Body Scrub - Exfoliating Coconut",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/the_body_shop/5028197962227_01-o/the-body-shop-coconut--o_.jpg",
+    "description": "Reveal smoother, glowing skin with this exfoliating coconut body scrub. The gentle yet effective scrubbing particles remove dead skin cells, leaving your skin soft, renewed, and lightly scented.",
+    "category": "Body-care",
+    "price": "16.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "489",
+    "title": "Bath Bombs Set - Relaxing Lavender",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/baylis-harding/017854105980_01/baylis-harding-mulberry-fizz_.jpg",
+    "description": "Indulge in a relaxing bath experience with this set of lavender-scented bath bombs. The fizzing action releases nourishing ingredients and essential oils, creating a soothing and aromatic ambiance.",
+    "category": "Body-care",
+    "price": "19.99",
+    "availability": true,
+    "qty": 6
+  },
+  {
+    "id": "31235",
+    "title": "Satin Sleep Mask - Black",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/notino/3760275386434_01-o/notino-luxe-collection-satin-sleep-mask_.jpg",
+    "description": "Enhance your sleep routine with this luxurious satin sleep mask in elegant black. The soft and silky material blocks out light, providing a peaceful and restful slumber.",
+    "category": "Accessories",
+    "price": "8.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "67238",
+    "title": "Travel Toiletry Bag - Waterproof",
+    "imgUrl": "https://img.eobuwie.cloud/eob_product_656w_656h(3/4/e/9/34e91d8e87adf85e962b3fa4ef822fa1e0ed8443_01_5711747500511_ks.jpg,webp)/kosmetichka-rains-wash-bag-large-15590-black.webp",
+    "description": "Stay organized during your travels with this waterproof toiletry bag. The spacious compartments and sturdy construction make it perfect for storing your essentials on the go.",
+    "category": "Accessories",
+    "price": "14.99",
+    "availability": true,
+    "qty": 0
+  },
+  {
+    "id": "9235",
+    "title": "Beard Comb - Sandalwood",
+    "imgUrl": "https://cdn.notinoimg.com/detail_main_lq/angry_beards/0752993127164_01-o/angry-beards-beard-comb-69-teeth_.jpg",
+    "description": "Groom your beard with style using this sandalwood beard comb. The wide-toothed design detangles and shapes your beard, while the natural sandalwood material adds a touch of luxury.",
+    "category": "Accessories",
+    "price": "9.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "543",
+    "title": "Cotton Handkerchiefs Set - Pack of 3",
+    "imgUrl": "https://bbt-store.com/image/catalog/products/Bugatti/bug-H19_2.jpg",
+    "description": "Add a touch of elegance to your accessories with this set of cotton handkerchiefs. The pack includes three soft and durable handkerchiefs, perfect for everyday use or special occasions.",
+    "category": "Accessories",
+    "price": "6.99",
+    "availability": true,
+    "qty": 5
+  },
+  {
+    "id": "421",
+    "title": "Men's Wallet - Genuine Leather",
+    "imgUrl": "https://content.rozetka.com.ua/goods/images/big/122838686.jpg",
+    "description": "Carry your essentials in style with this men's wallet made of genuine leather. The compact design features multiple card slots, a bill compartment, and a coin pocket for added convenience.",
+    "category": "Accessories",
+    "price": "29.99",
+    "availability": true,
+    "qty": 0
+  }
+]

@@ -1,0 +1,35 @@
+@import './_variables.scss';
+
+.input{
+  &__group { 
+    padding: $pd-standart;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  } 
+
+  &__field {
+    font-family: inherit;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid transparent;
+
+    &:focus {
+      outline: none;
+      border-color: $c-m-dark;
+    }
+  }
+
+  &__clear {
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    background-color: inherit;
+    right: 0;
+    padding-right: 35px;
+  }
+}
+

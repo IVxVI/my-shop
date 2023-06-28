@@ -1,0 +1,131 @@
+@import '../../styles/_variables.scss';
+@import '../../styles/_mixins.scss';
+
+h1, p {
+  margin: 0;
+}
+
+.product {
+  width: $prod-width;
+  height: $prod-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  font-family: inherit;
+  border-radius: 10px;
+
+  &__price {
+    margin-top: 10px;
+    color: $f-main;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  &__original-price {
+    color: $c-m-dark;
+  }
+
+  &__description {
+    display: none;
+  }
+
+  &__img {
+    max-height: calc($prod-height / 2);
+    overflow: hidden;
+    border-radius: 10px;
+
+    &--wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__flex-group {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  &__content {
+    padding: $pd-standart;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+    padding-top: 10px;
+  }
+
+  &__button {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-size: 14px;
+
+    color: $c-m-dark;
+    font-weight: 500;
+    font-family: inherit;
+
+    background-color: $c-light;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: transform 0.2s;
+
+    &:hover {
+      background-color: $c-dark;
+      color: $c-light;
+    }
+
+    &:active {
+      transform: scale(0.9)
+    }
+
+    &-link {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  @include onDesktop {
+    flex-direction: row;
+    height: calc($prod-height / 1.1);
+    width: calc($prod-width * 2);
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: calc($prod-width / 1.2);
+    }
+
+    &__description {
+      display: block;
+    }
+
+    &__img {
+      overflow: hidden;
+      border-radius: 10px;
+
+      &--wrapper {
+        height: 100%;
+        max-width: $prod-width;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      } 
+    }
+  }
+}
+
+.visually-hidden {
+  display: none;
+}

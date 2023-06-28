@@ -1,0 +1,50 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  right: 0;
+  top: 0;
+  background-color: $c-light;
+  border-left: 2px solid $c-m-dark;
+  padding: $pd-standart;
+  transform: translateX(100%);
+  transition: transform 0.3s;
+  overflow-y: scroll;
+  z-index: 999;
+
+  &.active {
+    transform: translateX(0);
+  }
+
+  &__icons {
+    height: $nav-height;
+    display: flex;
+    justify-content: space-around;
+
+    &--cart {
+      color: inherit;
+    }
+
+    &--cross {
+      cursor: pointer;
+    }
+  }
+
+  &__items {
+    padding-top: $pd-standart;
+    padding-left: 0;
+    font-size: 15px;
+  }
+
+  &__item {
+    border-bottom: 1px solid $f-main;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+}

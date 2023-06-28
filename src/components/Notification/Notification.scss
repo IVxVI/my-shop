@@ -1,0 +1,40 @@
+@import '../../styles/variables';
+
+.message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: $pd-standart;
+  animation: fadeIn 0.5s linear;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  &__text {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+  }
+  
+    &.successful {
+      background-color: #A0C49D;
+    }
+  
+    &.danger {
+      background-color: #c49d9d;
+    }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  20% { opacity: 0.2; }
+  40% { opacity: 0.4; }
+  60% { opacity: 0.6; }
+  80% { opacity: 0.8; }
+  100% { opacity: 1; }
+}

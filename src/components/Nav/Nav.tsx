@@ -1,10 +1,10 @@
-import { NavLink } from "react-router-dom";
-import classNames from "classnames";
-import { ShoppingCart, Heart, Menu, X, ArrowRight } from "react-feather";
-import './Nav.scss';
-import Sidebar from "../Sidebar/Sidebar";
 import { useContext, useEffect, useRef, useState } from "react";
+import { NavLink } from "react-router-dom";
+import { ShoppingCart, Heart, Menu, X, ArrowRight } from "react-feather";
+import classNames from "classnames";
+import Sidebar from "../Sidebar/Sidebar";
 import StoreContext from "../../helpers/StoreContext";
+import './Nav.scss';
 
 export const Nav: React.FC = () => {
   const { wishlist, cartProducts } = useContext(StoreContext)
@@ -41,6 +41,10 @@ export const Nav: React.FC = () => {
     if (navRef.current && !navRef.current.contains(event.target)) {
       setVisibility(false);
     }
+  };
+
+  const handleSidebarClick = (event: MouseEvent) => {
+    event.stopPropagation();
   };
   
   useEffect(() => {
@@ -100,6 +104,7 @@ export const Nav: React.FC = () => {
           visibility={visibility}
           handleVisibiluty={() => setVisibility(prevState => !prevState)}
           products={sidebarProducts}
+          onClick={handleSidebarClick}
         />
       </>
   )

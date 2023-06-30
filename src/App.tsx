@@ -54,9 +54,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="home" element={<Navigate to="/" replace />} />
-          <Route path="cart" element={
-              <Cart />
-          } />
+          <Route path="cart" element={<Cart />} />
           <Route path="about" element={<About />} />
 
           <Route path="products">

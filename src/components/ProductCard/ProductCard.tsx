@@ -7,6 +7,7 @@ import handleNotification from '../../helpers/handleNotification';
 import DetailedProduct from '../DetailedProduct/DetailedProduct';
 import './ProductCard.scss';
 import { hasProduct } from '../../helpers/hasProduct';
+import { handleDelete } from '../../helpers/handleDelete';
 
 type Props = {
   product: Product,
@@ -37,7 +38,8 @@ const ProductCard: React.FC<Props> = ({ product }) => {
 
   const handleAddToWishlist = () => {
     if(hasProduct(wishlist, id)) {
-      handleNotification("This item was already added to your wishlist :)", setNotification);
+      handleDelete(id, wishlist, setWishlist);
+      handleNotification("Successfully removed from your wishlist :)", setNotification);
       return;
     }
 

@@ -1,22 +1,25 @@
 import { Product } from "../../Types/Product";
-import { ShoppingCart, X } from "react-feather";
+import { ChevronLeft, ChevronRight, ShoppingCart, X } from "react-feather";
 import './Sidebar.scss'
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import classNames from "classnames";
 import StoreContext from "../../helpers/StoreContext";
+import { handleQty } from "../../helpers/handleQty";
 
 type Props = {
   products: Product[],
   visibility: boolean,
-  handleVisibiluty: () => void
+  handleVisibiluty: () => void,
+  onClick: (event: MouseEvent) => void,
 }
 
-const Sidebar: React.FC<Props> = ({ products, visibility, handleVisibiluty}) => {
-  const { orderPrice } = useContext(StoreContext);
+const Sidebar: React.FC<Props> = ({ visibility, handleVisibiluty, onClick}) => {
+  const { orderPrice, cartProducts, setCartProducts } = useContext(StoreContext);
 
   return (
-    <section 
+    <section
+      onClick={onClick}
       className={classNames(
         "sidebar",
         {active: visibility}
@@ -32,11 +35,20 @@ const Sidebar: React.FC<Props> = ({ products, visibility, handleVisibiluty}) => 
       </div>
       <h3 className="sidebar__order-price">Total price: ${orderPrice?.toFixed(2)}</h3>
       <div className="sidebar__items">
-        {products.map((product) => (
+        {cartProducts?.map((product) => (
           <div className="sidebar__item item" key={product.id}>
             <h4 className="item__header">{product.title}</h4>
             <p className="item__price">${product.price}</p>
-            {product.qty > 1 && <p className="item__qty">Quantity: {product.qty}</p>}
+            {product.qty > 1 && 
+              <p className="item__qty">
+                <ChevronLeft 
+                  onClick={() => handleQty(cartProducts, setCartProducts, product.id, 'decrement')}
+                />  
+                  Quantity: {product.qty} 
+                <ChevronRight  
+                  onClick={() => handleQty(cartProducts, setCartProducts, product.id, 'increment')}
+                />
+              </p>}
           </div>
         ))}
       </div>

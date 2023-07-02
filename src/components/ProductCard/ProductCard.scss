@@ -6,6 +6,8 @@ h1, p {
 }
 
 .product {
+  @include glass;
+
   width: $prod-width;
   height: $prod-height;
   display: flex;
@@ -13,13 +15,21 @@ h1, p {
   justify-content: space-between;
   background-color: #fff;
   font-family: inherit;
-  border-radius: 10px;
+  border-radius: $bord-rad-outer;
 
+  font-size: 10px;
+
+  &__wishlist {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  
   &__price {
     margin-top: 10px;
     color: $f-main;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   &__original-price {
@@ -69,7 +79,7 @@ h1, p {
     align-items: center;
     justify-content: center;
     gap: 2px;
-    font-size: 14px;
+    font-size: 12px;
 
     color: $c-m-dark;
     font-weight: 500;
@@ -78,7 +88,7 @@ h1, p {
     background-color: $c-light;
     cursor: pointer;
     border-radius: 3px;
-    transition: transform 0.2s;
+    transition: $trns-trsf;
 
     &:hover {
       background-color: $c-dark;
@@ -86,7 +96,7 @@ h1, p {
     }
 
     &:active {
-      transform: scale(0.9)
+      transform: $trsf-btn;
     }
 
     &-link {
@@ -99,16 +109,39 @@ h1, p {
     flex-direction: row;
     height: calc($prod-height / 1.1);
     width: calc($prod-width * 2);
-
+    position: relative;
+    
+    &__title {
+      font-size: 22px;
+    }
+    
+    &__price {
+      font-size: 20px;
+    }
+    
+    &__wishlist {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    
     &__content {
+      position: relative;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 20px;
       max-width: calc($prod-width / 1.2);
+      font-size: 15px;
     }
 
     &__description {
-      display: block;
+      font-size: 16px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     &__img {

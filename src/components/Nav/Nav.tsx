@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { ShoppingCart, Heart, Menu, X, ArrowRight } from "react-feather";
+import { ShoppingCart, Heart, Menu, X, ArrowRight , Home, Gift} from "react-feather";
 import classNames from "classnames";
 import Sidebar from "../Sidebar/Sidebar";
 import StoreContext from "../../helpers/StoreContext";
@@ -32,19 +32,15 @@ export const Nav: React.FC = () => {
   }
 
   const navLinks = [
-    {title: 'Home', to:'/'},
-    {title: 'Products', to:'products'},
-    {title: 'Cart', to:'cart'},
+    { title: 'Home', to:'/', logo: <Home /> },
+    { title: 'Products', to:'products', logo: <Gift /> },
+    { title: 'Cart', to:'cart', logo: <ShoppingCart /> },
   ];
   
   const handleOutsideClick = (event: MouseEvent) => {
     if (navRef.current && !navRef.current.contains(event.target)) {
       setVisibility(false);
     }
-  };
-
-  const handleSidebarClick = (event: MouseEvent) => {
-    event.stopPropagation();
   };
   
   useEffect(() => {
@@ -58,22 +54,24 @@ export const Nav: React.FC = () => {
   return (
       <> 
         <nav className="nav" ref={navRef}>
-          <div className="nav__footer">
-            <div className="nav__footer--item" onClick={handleCartVisibility}>
-              <ShoppingCart />
-              {totalQty > 0 && 
-                <div className="qty__wrapper">
-                  <p className="qty">{totalQty}</p>
-                </div>}
+          <div className="nav__head">
+            <div className="nav__footer">
+              <div className="nav__footer--item" onClick={handleCartVisibility}>
+                <ShoppingCart />
+                {totalQty > 0 &&
+                  <div className="qty__wrapper">
+                    <p className="qty">{totalQty}</p>
+                  </div>}
+              </div>
+              <div className="nav__footer--item" onClick={handleWishlistVisibility}>
+                <Heart />
+              </div>
             </div>
-            <div className="nav__footer--item" onClick={handleWishlistVisibility}>
-              <Heart />
+            <div className="nav__controllers">
+              <p className="nav__controller" onClick={handleHiddenMenu}>
+                {!hiddenMenu ? <X /> : <Menu />}
+              </p>
             </div>
-          </div>
-          <div className="nav__controllers">
-            <p className="nav__controller" onClick={handleHiddenMenu}>
-              {!hiddenMenu ? <X /> : <Menu />}
-            </p>
           </div>
           <div className={classNames(
             "nav__body",
@@ -91,20 +89,18 @@ export const Nav: React.FC = () => {
                     onClick={handleHiddenMenu}
                   >
                     <p>{navLink.title}</p>
-                    <p><ArrowRight /></p>
+                    <p>{navLink.logo}</p>
                   </NavLink>
                 </div>
               ))}
             </div>
           </div>
-
         </nav>
 
         <Sidebar
           visibility={visibility}
           handleVisibiluty={() => setVisibility(prevState => !prevState)}
           products={sidebarProducts}
-          onClick={handleSidebarClick}
         />
       </>
   )

@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState } from 'react';
 import { Product } from "../../Types/Product";
 import { Heart, ShoppingCart } from 'react-feather'
 import addToStorage from '../../helpers/addToCart';
@@ -56,7 +56,12 @@ const ProductCard: React.FC<Props> = ({ product }) => {
   return (
     <>
       {detailedProduct ? (
-        <DetailedProduct product={product} setDetailedProduct={setDetailedProduct}/>
+        <DetailedProduct 
+          product={product} 
+          setDetailedProduct={setDetailedProduct}
+          handleAddToWishlist={handleAddToWishlist}
+          handleAddToCart={handleAddToCart}
+        />
       ) : (
         <article className="product">
           <div className="product__img--wrapper">
@@ -65,9 +70,8 @@ const ProductCard: React.FC<Props> = ({ product }) => {
 
           <div className="product__content">
             <p className="product__category">{category}</p>
-            <p onClick={handleAddToWishlist}>
+            <p className="product__wishlist" onClick={handleAddToWishlist}>
               {hasProduct(wishlist, id) ? <Heart fill=''/> : <Heart /> }
-
             </p>
             <p className="product__category">Items left: {qty}</p>
 

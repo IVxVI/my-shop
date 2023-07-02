@@ -1,25 +1,28 @@
-import { Product } from "../../Types/Product";
-import { ChevronLeft, ChevronRight, ShoppingCart, X } from "react-feather";
-import './Sidebar.scss'
-import { NavLink } from "react-router-dom";
 import { useContext } from "react";
-import classNames from "classnames";
+import { NavLink } from "react-router-dom";
+import { ShoppingCart, X } from "react-feather";
+import { Product } from "../../Types/Product";
 import StoreContext from "../../helpers/StoreContext";
-import { handleQty } from "../../helpers/handleQty";
+import SidebarItem from "../SidebarItem/SidebarItem";
+import classNames from "classnames";
+import './Sidebar.scss';
 
 type Props = {
   products: Product[],
   visibility: boolean,
   handleVisibiluty: () => void,
-  onClick: (event: MouseEvent) => void,
 }
 
-const Sidebar: React.FC<Props> = ({ visibility, handleVisibiluty, onClick}) => {
-  const { orderPrice, cartProducts, setCartProducts } = useContext(StoreContext);
+const Sidebar: React.FC<Props> = ({ visibility, handleVisibiluty}) => {
+  const { orderPrice, cartProducts } = useContext(StoreContext);
+
+  const handleSidebarClick = (event: MouseEvent) => {
+    event.stopPropagation();
+  };
 
   return (
     <section
-      onClick={onClick}
+      onClick={handleSidebarClick}
       className={classNames(
         "sidebar",
         {active: visibility}
@@ -33,24 +36,12 @@ const Sidebar: React.FC<Props> = ({ visibility, handleVisibiluty, onClick}) => {
           </NavLink>
         </p>
       </div>
-      <h3 className="sidebar__order-price">Total price: ${orderPrice?.toFixed(2)}</h3>
+      <h3 className="sidebar__total">
+        <span>Total price:</span>
+        <span>$ {orderPrice?.toFixed(2)}</span>
+      </h3>
       <div className="sidebar__items">
-        {cartProducts?.map((product) => (
-          <div className="sidebar__item item" key={product.id}>
-            <h4 className="item__header">{product.title}</h4>
-            <p className="item__price">${product.price}</p>
-            {product.qty > 1 && 
-              <p className="item__qty">
-                <ChevronLeft 
-                  onClick={() => handleQty(cartProducts, setCartProducts, product.id, 'decrement')}
-                />  
-                  Quantity: {product.qty} 
-                <ChevronRight  
-                  onClick={() => handleQty(cartProducts, setCartProducts, product.id, 'increment')}
-                />
-              </p>}
-          </div>
-        ))}
+        {cartProducts?.map((product) => <SidebarItem product={product} key={product.id}/>)}
       </div>
     </section>
   )

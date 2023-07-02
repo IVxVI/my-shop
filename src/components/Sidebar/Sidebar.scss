@@ -7,13 +7,20 @@
   width: 200px;
   right: 0;
   top: 0;
-  background-color: $c-light;
-  border-left: 2px solid $c-m-dark;
+  
+  @include glass;
+
   padding: $pd-standart;
   transform: translateX(100%);
   transition: transform 0.3s;
   overflow-y: scroll;
   z-index: 999;
+
+  &__total {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
 
   &.active {
     transform: translateX(0);
@@ -34,17 +41,15 @@
   }
 
   &__items {
-    padding-top: $pd-standart;
-    padding-left: 0;
     font-size: 15px;
   }
 
   &__item {
-    border-bottom: 1px solid $f-main;
+    border-bottom: $border-main;
+    border-top: $border-main;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-bottom: 10px;
   }
 }

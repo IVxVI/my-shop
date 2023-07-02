@@ -1,0 +1,56 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.item {
+  padding-top: $pd-standart;
+  padding-bottom: $pd-standart;
+  position: relative;
+
+  &:last-of-type {
+    padding-bottom: calc($pd-standart * 2);
+  }
+
+  &__delete {
+    position: absolute;
+    right: 0;
+    padding: 0;
+    top: 5px;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    transition: $trns-trsf;
+    
+    :active {
+      transform: $trsf-btn;
+    }
+  }
+
+  &__qty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: $trns-trsf;
+    
+    :active {
+      transform: $trsf-btn;
+    }
+    
+    &--arr {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 3px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--span {
+      &:active {
+        transform: unset;
+      }
+    }
+  }
+}

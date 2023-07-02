@@ -15,3 +15,10 @@
     @content;
   }
 }
+
+@mixin glass {
+  background: rgba( 255, 255, 255, 0.65 );
+  box-shadow: $b-sh-main;
+  backdrop-filter: blur( 17px );
+  -webkit-backdrop-filter: blur( 17px );
+}
